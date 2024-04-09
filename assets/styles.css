@@ -42,7 +42,7 @@ header {
 }
 
 .hero {
-    background-image: url("assets/img/flexpal-banner.PNG");
+    background-image: url("assets/img/flexpal-banner.png");
     background-size: cover;
     background-position: center;
     position: relative;
