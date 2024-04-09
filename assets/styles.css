@@ -114,17 +114,39 @@ header {
         flex-wrap: wrap;
         gap: 2rem;
         .card {
+            display: flex;
+            align-items: center;
             padding: 1rem;
             max-width: 40rem;
+            .card1{
+            background-color: #195fa4;
+             }
+            img{
+                width: 50em;
+                height: 17em;
+                border-radius: 10em;
+            }
+            .info{
+                margin-left: 2em;
+            }
             .comment {
                 font-size: 1.2em;
                 margin-bottom: 1rem;
             }
             .user {
                 font-size: 1em;
-                color: #777;
+                color: white;
             }
         }
+    }
+    #card1{
+        background-color: #2c70ad;
+    }
+    #card2{
+        background-color: #afacac;
+    }
+    #font{
+        color: black;
     }
 }
 
