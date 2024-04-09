@@ -15,6 +15,7 @@ header {
         font-weight: bold;
         .nav-logo {
             font-size: 2em;
+            width: 25%;  /* adjust as needed */
         }
         .nav-menu {
             display: flex;
