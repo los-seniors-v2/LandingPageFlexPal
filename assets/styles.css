@@ -74,7 +74,31 @@ header {
         }
     }
 }
-
+.About_Us{
+    .met_us{
+        text-align: left;
+    }
+    .mission_objective{
+        margin-top: 30px;
+        text-align: right;
+    }
+    & h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    & p {
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 1px;
+        white-space: pre-line;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    & i{
+        color: #f5f5f5;
+    }
+}
 .destin {
     .destin-content {
         display: flex;
